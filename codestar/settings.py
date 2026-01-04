@@ -30,7 +30,7 @@ if os.path.isfile(BASE_DIR / 'env.py'):
 SECRET_KEY = 'django-insecure-ukv79ti__cn=bc7b1o_g9try#5mnqx@25+_!u)03l-cpaa&1#m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.herokuapp.com',
     'localhost',
